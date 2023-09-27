@@ -71,23 +71,109 @@ int main() {
     strcpy(I.symbols[3], " _/  ");
     strcpy(I.symbols[4], "_/   ");  
 
-    strcpy(L.symbols[0], "    _/");
-    strcpy(L.symbols[1], "   _/ ");
-    strcpy(L.symbols[2], "  _/ ");
-    strcpy(L.symbols[3], " _/  ");
-    strcpy(L.symbols[4], "_/   "); 
-
     strcpy(J.symbols[0], "      _/");
     strcpy(J.symbols[1], "        ");
     strcpy(J.symbols[2], "    _/  ");
     strcpy(J.symbols[3], "   _/   ");
     strcpy(J.symbols[4], "_/      "); 
 
-    strcpy(T.symbols[0], "   _/   ");
-    strcpy(T.symbols[1], "_/_/_/_/");
-    strcpy(T.symbols[2], " _/     ");
-    strcpy(T.symbols[3], "_/      ");
-    strcpy(T.symbols[4], " _/_/   "); 
+    strcpy(K.symbols[0], "    _/    ");
+    strcpy(K.symbols[1], "   _/  _/ ");
+    strcpy(K.symbols[2], "  _/_/    ");
+    strcpy(K.symbols[3], " _/  _/   ");
+    strcpy(K.symbols[4], "_/    _/  "); 
+
+    strcpy(L.symbols[0], "    _/");
+    strcpy(L.symbols[1], "   _/ ");
+    strcpy(L.symbols[2], "  _/ ");
+    strcpy(L.symbols[3], " _/  ");
+    strcpy(L.symbols[4], "_/   "); 
+
+    strcpy(M.symbols[0], "                ");
+    strcpy(M.symbols[1], "   _/_/_/  _/_/ ");
+    strcpy(M.symbols[2], "  _/    _/    _/");
+    strcpy(M.symbols[3], " _/    _/    _/ "); 
+    strcpy(M.symbols[4], "_/    _/    _/  ");
+
+    strcpy(N.symbols[0], "             ");
+    strcpy(N.symbols[1], "   _/_/_/    ");
+    strcpy(N.symbols[2], "  _/    _/   ");
+    strcpy(N.symbols[3], " _/    _/    "); 
+    strcpy(N.symbols[4], "_/    _/     ");
+
+    strcpy(O.symbols[0], "         ");
+    strcpy(O.symbols[1], "   _/_/  ");
+    strcpy(O.symbols[2], "_/    _/ ");
+    strcpy(O.symbols[3], "_/    _/ "); 
+    strcpy(O.symbols[4], " _/_/    ");
+
+    strcpy(P.symbols[0], "    _/_/_/  ");
+    strcpy(P.symbols[1], "   _/    _/ ");
+    strcpy(P.symbols[2], "  _/_/_/    ");
+    strcpy(P.symbols[3], " _/         "); 
+    strcpy(P.symbols[4], "_/          ");
+
+    strcpy(Q.symbols[0], "    _/_/_/  ");
+    strcpy(Q.symbols[1], "  _/    _/  ");
+    strcpy(Q.symbols[2], "   _/_/_/   ");
+    strcpy(Q.symbols[3], "      _/    "); 
+    strcpy(Q.symbols[4], "     _/     ");
+
+    strcpy(R.symbols[0], "         ");
+    strcpy(R.symbols[1], "_/  _/_/ ");
+    strcpy(R.symbols[2], "_/_/     ");
+    strcpy(R.symbols[3], "_/       ");
+    strcpy(R.symbols[4], "_/       "); 
+
+    strcpy(S.symbols[0], "           ");
+    strcpy(S.symbols[1], "    _/_/_/ ");
+    strcpy(S.symbols[2], " _/_/      ");
+    strcpy(S.symbols[3], "     _/_/  "); 
+    strcpy(S.symbols[4], "_/_/_/     ");
+
+    strcpy(T.symbols[0], "      _/     ");
+    strcpy(T.symbols[1], "   _/_/_/_/ ");
+    strcpy(T.symbols[2], "    _/      ");
+    strcpy(T.symbols[3], "   _/       "); 
+    strcpy(T.symbols[4], "    _/_/    ");
+
+    strcpy(U.symbols[0], "             ");
+    strcpy(U.symbols[1], "   _/    _/  ");
+    strcpy(U.symbols[2], "  _/    _/   ");
+    strcpy(U.symbols[3], " _/    _/    "); 
+    strcpy(U.symbols[4], "  _/_/_/     ");
+
+    strcpy(V.symbols[0], "             ");
+    strcpy(V.symbols[1], "  _/     _/  ");
+    strcpy(V.symbols[2], "  _/     _/  ");
+    strcpy(V.symbols[3], "   _/  _/    "); 
+    strcpy(V.symbols[4], "    _/       ");
+
+    strcpy(W.symbols[0], "                       ");
+    strcpy(W.symbols[1], "  _/       _/       _/ ");
+    strcpy(W.symbols[2], " _/       _/       _/  ");
+    strcpy(W.symbols[3], "   _/  _/   _/   _/    "); 
+    strcpy(W.symbols[4], "    _/       _/        ");
+
+    strcpy(X.symbols[0], "            ");
+    strcpy(X.symbols[1], "  _/     _/ ");
+    strcpy(X.symbols[2], "    _/_/    ");
+    strcpy(X.symbols[3], "  _/   _/   "); 
+    strcpy(X.symbols[4], " _/    _/   ");
+
+    strcpy(Y.symbols[0], "   _/     _/ ");
+    strcpy(Y.symbols[1], "  _/     _/  ");
+    strcpy(Y.symbols[2], "    _/_/_/   ");
+    strcpy(Y.symbols[3], "       _/    "); 
+    strcpy(Y.symbols[4], "    _/_/     ");
+
+    strcpy(Z.symbols[0], "           ");
+    strcpy(Z.symbols[1], "  _/_/_/_/ ");
+    strcpy(Z.symbols[2], "     _/    ");
+    strcpy(Z.symbols[3], "   _/      "); 
+    strcpy(Z.symbols[4], " _/_/_/_/  ");
+
+
 
     int str_length = strlen(str);
 
